@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+      <style>
+
+         form {text-align:center;}
+    </style>
+</head>
+<body style=" background-color:gray;">
+<form method="post" action="/">
+     {% csrf_token %}
+    <input type="text" name="Name" PLACEHOLDER="Name:"><br>
+    <input type="number" name="AGE" placeholder="AGE:"><br>
+    <input type="number" name="Phone" placeholder="Phone No:"><br>
+    <input type="date" name="DOB" placeholder="DOB:"><br>
+    <input type="text" name="Address" placeholder="Address:"><br>
+    <input type="email" name="confirm password" placeholder="Email Id:"><br>
+    Gender:
+    <input type="radio" name="gender" placeholder="Gender">Male
+    <input type="radio" name="gender" placeholder="Gender">Female
+    <input type="radio" name="gender" placeholder="Gender"> Other <br>
+    <input type="checkbox"> I agree all statements in Terms of service<br>
+    <input type="submit" style="background-color:DeepSkyBlue;"><br>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
